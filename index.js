@@ -3,7 +3,7 @@ const ClassName = {
     Vue.directive('className', {
       bind (el, binding, vnode) {
         const componentName = vnode.context.$options._componentTag
-        const className = `${componentName}${binding.value || ''}`
+        const className = `${componentName}${binding.value ? ' ' + binding.value : ''}`
         el.className = `${className}${el.className || ''}`
       }
     })
