@@ -1,6 +1,6 @@
 {
   "name": "v-class-name",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "component css class name helper",
   "main": "y",
   "scripts": {
