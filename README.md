@@ -3,7 +3,7 @@
 Add CSS class name which based on `name` property.
 
 ```js
-import vueClassName from 'vue-class-name'
+import vueClassName from 'v-class-name'
 Vue.use(vueClassName)
 ```
 
