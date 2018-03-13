@@ -1,6 +1,6 @@
 {
   "name": "v-class-name",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Vue component CSS class name helper",
   "main": "index.js",
   "scripts": {
@@ -11,11 +11,11 @@
   ],
   "author": "nakajmg",
   "license": "MIT",
-  "repository": "https://github.com/nakajmg/vue-class-name.git",
+  "repository": "https://github.com/nakajmg/v-class-name",
   "bugs": {
-    "url": "https://github.com/nakajmg/vue-class-name/issues"
+    "url": "https://github.com/nakajmg/v-class-name/issues"
   },
-  "homepage": "https://github.com/nakajmg/vue-class-name#readme",
+  "homepage": "https://github.com/nakajmg/v-class-name#readme",
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.12",
     "babel-jest": "^22.4.1",
