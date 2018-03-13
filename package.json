@@ -4,7 +4,7 @@
   "description": "Vue component CSS class name helper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
     "vue"
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/nakajmg/vue-class-name/issues"
   },
-  "homepage": "https://github.com/nakajmg/vue-class-name#readme"
+  "homepage": "https://github.com/nakajmg/vue-class-name#readme",
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.12",
+    "babel-jest": "^22.4.1",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.4.2",
+    "vue": "^2.5.15",
+    "vue-jest": "^2.1.1",
+    "vue-template-compiler": "^2.5.15"
+  }
 }
