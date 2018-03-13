@@ -1,4 +1,4 @@
-# vue-class-name
+# v-class-name
 
 Add CSS class name which based on `name` property.
 
