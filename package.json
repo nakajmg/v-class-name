@@ -1,8 +1,8 @@
 {
   "name": "v-class-name",
   "version": "1.0.5",
-  "description": "component css class name helper",
-  "main": "y",
+  "description": "Vue component CSS class name helper",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,10 +11,7 @@
   ],
   "author": "nakajmg",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "ulr": "git+https://github.com/nakajmg/vue-class-name.git"
-  },
+  "repository": "https://github.com/nakajmg/vue-class-name.git",
   "bugs": {
     "url": "https://github.com/nakajmg/vue-class-name/issues"
   },

@@ -1,5 +1,7 @@
 # vue-class-name
 
+Add CSS class name which based on `name` property.
+
 ```js
 import vueClassName from 'vue-class-name'
 Vue.use(vueClassName)
