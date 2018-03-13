@@ -16,7 +16,6 @@ describe('v-class-name', () => {
   
   describe('root', () => {
     test('element has .TestComponent', () => {
-      console.log(wrapper.vm.$el.innerHTML)
       expect(wrapper.classes()).toContain('TestComponent')
     })
     test('element has 1 class', () => {
@@ -24,8 +23,8 @@ describe('v-class-name', () => {
     })
   })
 
-  describe('test1', () => {
-    test('test1 element has .TestComponent_Test1', () => {
+  describe('child node', () => {
+    test('element has .TestComponent_Test1', () => {
       const el = wrapper.find(sel('test1'))
       expect(el.classes()).toContain('TestComponent_Test1')
     })
@@ -35,7 +34,7 @@ describe('v-class-name', () => {
     })
   })
 
-  describe('test2', () => {
+  describe('with class', () => {
     test('element has .TestComponent_Test2 and .TestClass', () => {
       const el = wrapper.find(sel('test2'))
       expect(el.classes()).toContain('TestComponent_Test2')
@@ -51,7 +50,7 @@ describe('v-class-name', () => {
     })
   })
   
-  describe('test3', () => {
+  describe('with v-bind:class', () => {
     test('element has .TestComponent_Test3 and ._test', () => {
       const el = wrapper.find(sel('test3'))
       expect(el.classes()).toContain('TestComponent_Test3')
@@ -67,7 +66,7 @@ describe('v-class-name', () => {
     })
   })
 
-  describe('test4', () => {
+  describe('with class and v-bind:class', () => {
     test('element has .TestComponent_Test4 and ._test and .TestClass', () => {
       const el = wrapper.find(sel('test4'))
       expect(el.classes()).toContain('TestComponent_Test4')
